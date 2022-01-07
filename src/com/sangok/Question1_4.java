@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Question1_4 {
 
     // String 배열을 활용한 답변
-
     public static void solution(int index, String[] input) {
         StringBuffer temp = new StringBuffer();
 

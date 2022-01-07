@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Question1_4_2 {
 
-    public static ArrayList<String> solution(int n, String[] str) {
+    public static ArrayList<String> solution(String[] str) {
         ArrayList<String> answer = new ArrayList<>();
 
         for(String x : str) {
@@ -26,7 +26,7 @@ public class Question1_4_2 {
             str[i] = scanner.next();
         }
 
-        for(String x : solution(n, str)) {
+        for(String x : solution(str)) {
             System.out.println(x);
         }
     }
